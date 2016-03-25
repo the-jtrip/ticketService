@@ -1,7 +1,7 @@
 # ticketService
 Repo for walmart ticket service assignment
 
-The normal view of this readme loses all the formatting, and makes it particularly un-fun to read.
+The "normal" view of this readme loses all the formatting, and makes it particularly un-fun to read. Might I recommend perhaps a "raw" or "blame" viewing?
 
 
 *There are no dao's, daoImpl's, or spring data configs. To use this application I've made a "MemoryDB" class that has a static map of TicketLevel objects (each with its own map of rows and seats), as well as a static map of SeatHold object. This allows the application to behave similarly to database interactions within a given session, without having to actually connect to a database.
